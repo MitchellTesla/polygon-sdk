@@ -15,7 +15,7 @@ require (
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/golang-lru v0.5.4
 	github.com/hashicorp/hcl v1.0.0
-	github.com/hashicorp/vault/api v1.7.2
+	github.com/hashicorp/vault/api v1.8.2
 	github.com/libp2p/go-libp2p v0.22.0
 	github.com/libp2p/go-libp2p-kbucket v0.5.0
 	github.com/libp2p/go-libp2p-pubsub v0.8.1
@@ -60,7 +60,10 @@ require (
 	lukechampine.com/blake3 v1.1.7 // indirect
 )
 
-require github.com/0xPolygon/go-ibft v0.0.0-20220810095021-e43142f8d267
+require (
+	github.com/0xPolygon/go-ibft v0.0.0-20220810095021-e43142f8d267
+	go.uber.org/atomic v1.10.0
+)
 
 require (
 	cloud.google.com/go v0.102.0 // indirect
@@ -93,7 +96,7 @@ require (
 	github.com/googleapis/gax-go/v2 v2.4.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
-	github.com/hashicorp/go-plugin v1.4.4 // indirect
+	github.com/hashicorp/go-plugin v1.4.5 // indirect
 	github.com/hashicorp/go-retryablehttp v0.7.1 // indirect
 	github.com/hashicorp/go-rootcerts v1.0.2 // indirect
 	github.com/hashicorp/go-secure-stdlib/mlock v0.1.2 // indirect
@@ -102,7 +105,7 @@ require (
 	github.com/hashicorp/go-sockaddr v1.0.2 // indirect
 	github.com/hashicorp/go-uuid v1.0.3 // indirect
 	github.com/hashicorp/go-version v1.5.0 // indirect
-	github.com/hashicorp/vault/sdk v0.5.1 // indirect
+	github.com/hashicorp/vault/sdk v0.6.0 // indirect
 	github.com/hashicorp/yamux v0.0.0-20211028200310-0bc27b27de87 // indirect
 	github.com/huin/goupnp v1.0.3 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
@@ -168,13 +171,12 @@ require (
 	github.com/valyala/fasthttp v1.37.0 // indirect
 	github.com/whyrusleeping/timecache v0.0.0-20160911033111-cfcb2f1abfee // indirect
 	go.opencensus.io v0.23.0 // indirect
-	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
 	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
 	golang.org/x/net v0.0.0-20220812174116-3211cb980234 // indirect
 	golang.org/x/oauth2 v0.0.0-20220608161450-d0670ef3b1eb // indirect
 	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/text v0.3.8 // indirect
 	golang.org/x/time v0.0.0-20220411224347-583f2d630306 // indirect
 	google.golang.org/api v0.85.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
