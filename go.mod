@@ -18,7 +18,7 @@ require (
 	github.com/hashicorp/vault/api v1.7.2
 	github.com/libp2p/go-libp2p v0.22.0
 	github.com/libp2p/go-libp2p-kbucket v0.5.0
-	github.com/libp2p/go-libp2p-pubsub v0.8.1
+	github.com/libp2p/go-libp2p-pubsub v0.8.3
 	github.com/miekg/dns v1.1.50 // indirect
 	github.com/multiformats/go-base32 v0.0.4 // indirect
 	github.com/multiformats/go-multiaddr v0.6.0
@@ -60,7 +60,10 @@ require (
 	lukechampine.com/blake3 v1.1.7 // indirect
 )
 
-require github.com/0xPolygon/go-ibft v0.0.0-20220810095021-e43142f8d267
+require (
+	github.com/0xPolygon/go-ibft v0.0.0-20220810095021-e43142f8d267
+	go.uber.org/atomic v1.10.0
+)
 
 require (
 	cloud.google.com/go v0.102.0 // indirect
@@ -80,6 +83,7 @@ require (
 	github.com/davidlazar/go-crypto v0.0.0-20200604182044-b73af7476f6c // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.1.0 // indirect
 	github.com/docker/go-units v0.4.0 // indirect
+	github.com/emirpasic/gods v1.18.1 // indirect
 	github.com/flynn/noise v1.0.0 // indirect
 	github.com/francoispqt/gojay v1.2.13 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20210107165309-348f09dbbbc0 // indirect
@@ -166,9 +170,7 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.37.0 // indirect
-	github.com/whyrusleeping/timecache v0.0.0-20160911033111-cfcb2f1abfee // indirect
 	go.opencensus.io v0.23.0 // indirect
-	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
 	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
 	golang.org/x/net v0.0.0-20220812174116-3211cb980234 // indirect
